@@ -60,8 +60,6 @@ modules:
       - install -Dm644 LICENSE -t /app/share/licenses/$FLATPAK_ID/build
       - install -Dm644 PKVault.Desktop/publishers/flatpak/io.github.chnapy.pkvault.desktop /app/share/applications/io.github.chnapy.pkvault.desktop
       - install -Dm644 PKVault.Desktop/publishers/flatpak/io.github.chnapy.pkvault.metainfo.xml /app/share/metainfo/io.github.chnapy.pkvault.metainfo.xml
-      - install -Dm644 PKVault.Desktop/publishers/common/icons/pkvault_128x128.png /app/share/icons/hicolor/128x128/apps/io.github.chnapy.pkvault.png
-      - install -Dm644 PKVault.Desktop/publishers/common/icons/pkvault_256x256.png /app/share/icons/hicolor/256x256/apps/io.github.chnapy.pkvault.png
       - install -Dm644 PKVault.Desktop/publishers/common/icons/pkvault_scalable.svg /app/share/icons/hicolor/scalable/apps/io.github.chnapy.pkvault.svg
 
     sources:
