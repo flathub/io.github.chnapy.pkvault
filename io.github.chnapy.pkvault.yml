@@ -5,6 +5,8 @@ sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.dotnet10
   - org.freedesktop.Sdk.Extension.node22
+# PKVault doesn't use traditional locale format
+separate-locales: false
 command: PKVault
 finish-args:
   - --share=ipc
