@@ -491,10 +491,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/pokeapi.models/1.0.115/pokeapi.models.1.0.115.nupkg",
-        "sha512": "91bdb3664fdfbc54e9ecf645b978d0f89ee6bfd85474b5bd2226cc3510b1d57625cecd3f8e9a4d5ccd918b436dc6690c5a795304b1586c054ef153e2979d28e6",
+        "url": "https://api.nuget.org/v3-flatcontainer/pokeapi.models/1.0.147/pokeapi.models.1.0.147.nupkg",
+        "sha512": "389a743347e76cd85fdd67344f61d43e3dae94afe52c46dd472677e24d1468b0d2670859b2d700a293f911e9a7e6bddb644138b1960607c3c213caf2ac934927",
         "dest": "nuget-sources-linux-x64",
-        "dest-filename": "pokeapi.models.1.0.115.nupkg"
+        "dest-filename": "pokeapi.models.1.0.147.nupkg"
     },
     {
         "type": "file",
