@@ -52,7 +52,7 @@ modules:
 
       # Frontend code generation
       - npm run --prefix frontend gen:routes
-      - VITE_OPENAPI_PATH=../PKVault.Backend/swagger.json npm run --prefix frontend gen:sdk:basic
+      - VITE_OPENAPI_PATH=../PKVault.Core/swagger.json npm run --prefix frontend gen:sdk:basic
       - npm run --prefix frontend gen:css:dts
       - DOCS_PATH=../docs/functional npm run --prefix frontend gen:docs
 
@@ -72,8 +72,8 @@ modules:
       - type: git
         url: https://github.com/Chnapy/PKVault
         disable-submodules: true
-        tag: v2.2.2
-        commit: c5a508d2d6a2465ceed3b9dbe42c600efda3bccc
+        tag: v2.3.0
+        commit: f1b79d22dccf1d051acfeae4309cf5cee5de6d04
       - desktop-nuget-sources-linux-x64.json
       - desktop-nuget-sources-linux-arm64.json
       - frontend-npm-sources.json
