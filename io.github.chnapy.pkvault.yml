@@ -72,8 +72,8 @@ modules:
       - type: git
         url: https://github.com/Chnapy/PKVault
         disable-submodules: true
-        tag: v2.3.0
-        commit: f1b79d22dccf1d051acfeae4309cf5cee5de6d04
+        tag: v2.3.1
+        commit: 0fc34bfd236fdf8a1d9511de8a808b26b3054eb9
       - desktop-nuget-sources-linux-x64.json
       - desktop-nuget-sources-linux-arm64.json
       - frontend-npm-sources.json
